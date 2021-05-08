@@ -31,7 +31,7 @@ Layer #2: *Neurons:* 30 *Activation Function:* Relu (Computationally more effect
 
 Output Layer: *Activation Function:* Sigmoid (Seeking classification output) 
 
-![](Resources/Images/ss1.png)
+![](Resources/Images/SS1.png)
 
 Model performance: Accuracy is at 73% and is below 75% the target model performance
 
@@ -52,7 +52,7 @@ Layer #2: *Neurons:* 30 *Activation Function:* Relu (Computationally more effect
 
 Output Layer: *Activation Function:* Sigmoid (Seeking classification output)
 
-![](Resources/Images/ss2.png)
+![](Resources/Images/SS2.png)
 
 Model performance: Accuracy is at 72.5% and is below 75% the target model performance
 
@@ -69,7 +69,7 @@ Layer #2: *Neurons:* 50 *Activation Function:* Relu (Computationally more effect
 
 Output Layer: *Activation Function:* Tanh (Ranges from -1 to 1, so negative inputs will be mapped strongly)
 
-![](Resources/Images/ss3.png)
+![](Resources/Images/SS3.png)
 
 Model performance: Accuracy is at 72% and is below 75% the target model performance. Performance is reduced as compared to previous runs.
 
@@ -87,7 +87,7 @@ Layer #3: *Neurons:* 10 *Activation Function:* Relu (Computationally more effect
 
 Output Layer: *Activation Function:* Tanh (Ranges from -1 to 1, so negative inputs will be mapped strongly)
 
-![](Resources/Images/ss4.png)
+![](Resources/Images/SS4.png)
 
 Model performance: Accuracy is at 72.3% and is below 75% the target model performance. 
 
