@@ -17,7 +17,7 @@ Variable considered target for the model:  **IS_SUCCESSFUL**
 
 Variables considered to be features for the model: **All variables except IS_SUCCESSFUL & SPECIAL_CONSIDERATIONS_Y for optimization**
 
-Variables are neither targets nor features, and removed from the input data: **EIN, NAME & SPECIAL_CONSIDERATIONS_Y **
+Variables are neither targets nor features, and removed from the input data: **EIN, NAME & SPECIAL_CONSIDERATIONS_Y**
 
 ### Compiling, Training, and Evaluating the Model: 
 
@@ -25,13 +25,13 @@ Variables are neither targets nor features, and removed from the input data: **E
 
 Layers: 2 Hidden and 1 Output Layer
 
-Layer #1: * Neurons: * 80 * Activation Function: * Relu (Computationally more effective)
+Layer #1: *Neurons:* 80 *Activation Function:* Relu (Computationally more effective)
 
-Layer #2: * Neurons: * 30 * Activation Function: * Relu (Computationally more effective)
+Layer #2: *Neurons:* 30 *Activation Function:* Relu (Computationally more effective)
 
-Output Layer: * Activation Function: * Sigmoid (Seeking classification output) 
+Output Layer: *Activation Function:* Sigmoid (Seeking classification output) 
 
-![](Resources/images/ss1.png)
+![](Resources/Images/SS1.png)
 
 Model performance: Accuracy is at 73% and is below 75% the target model performance
 
@@ -46,13 +46,13 @@ Pre-processing change: Removed SPECIAL_CONSIDERATIONS_Y feature  as it seems to 
 
 Layers: 2 Hidden and 1 Output Layer
 
-Layer #1: * Neurons: * 80 * Activation Function: * Relu (Computationally more effective)
+Layer #1: *Neurons:* 80 *Activation Function:* Relu (Computationally more effective)
 
-Layer #2: * Neurons: * 30 * Activation Function: * Relu (Computationally more effective)
+Layer #2: *Neurons:* 30 *Activation Function:* Relu (Computationally more effective)
 
-Output Layer: * Activation Function: * Sigmoid (Seeking classification output)
+Output Layer: *Activation Function:* Sigmoid (Seeking classification output)
 
-![](Resources/images/ss2.png)
+![](Resources/Images/SS2.png)
 
 Model performance: Accuracy is at 72.5% and is below 75% the target model performance
 
@@ -61,15 +61,15 @@ Model performance: Accuracy is at 72.5% and is below 75% the target model perfor
 
 Pre-processing change: No change from previous run
 
-Layers: 2 Hidden and 1 Output Layer * (No Change) *
+Layers: 2 Hidden and 1 Output Layer *(No Change)*
 
-Layer #1: * Neurons: * 90 * Activation Function: * Relu (Computationally more effective)
+Layer #1: *Neurons:* 90 *Activation Function:* Relu (Computationally more effective)
 
-Layer #2: * Neurons: * 50 * Activation Function: * Relu (Computationally more effective)
+Layer #2: *Neurons:* 50 *Activation Function:* Relu (Computationally more effective)
 
-Output Layer: * Activation Function: * Tanh (Ranges from -1 to 1, so negative inputs will be mapped strongly)
+Output Layer: *Activation Function:* Tanh (Ranges from -1 to 1, so negative inputs will be mapped strongly)
 
-![](Resources/images/ss3.png)
+![](Resources/Images/SS3.png)
 
 Model performance: Accuracy is at 72% and is below 75% the target model performance. Performance is reduced as compared to previous runs.
 
@@ -79,15 +79,15 @@ Pre-processing change: No change from previous run
 
 Layers: 3 Hidden and 1 Output Layer 
 
-Layer #1: * Neurons: * 80 * Activation Function: * Relu (Computationally more effective)
+Layer #1: *Neurons:* 80 *Activation Function:* Relu (Computationally more effective)
 
-Layer #2: * Neurons: * 30 * Activation Function: * Relu (Computationally more effective)
+Layer #2: *Neurons:* 30 *Activation Function:* Relu (Computationally more effective)
 
-Layer #3: * Neurons: * 10 * Activation Function: * Relu (Computationally more effective)
+Layer #3: *Neurons:* 10 *Activation Function:* Relu (Computationally more effective)
 
-Output Layer: * Activation Function: * Tanh (Ranges from -1 to 1, so negative inputs will be mapped strongly)
+Output Layer: *Activation Function:* Tanh (Ranges from -1 to 1, so negative inputs will be mapped strongly)
 
-![](Resources/images/ss4.png)
+![](Resources/Images/SS4.png)
 
 Model performance: Accuracy is at 72.3% and is below 75% the target model performance. 
 
